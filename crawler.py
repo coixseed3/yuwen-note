@@ -11,7 +11,7 @@ DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "")
 
 def crawl_hanchacha(lesson_name):
     """从 hanchacha.com 爬取所有相关资料"""
-    print(f"  🔍 正在从 hanchacha.com 搜索《{lesson_name}》...")
+    print(f"  🔍 正在从 hanchacha.com 搜索《{赵州桥}》...")
     
     all_text = ""
     headers = {
